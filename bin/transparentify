@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 const transparentify = require('../lib/main.js');
 (async () => {
-  await transparentify.run(process.argv.slice(2)[0]);
+  const args = process.argv.slice(2);
+  const filepath = args[0];
+  const options = {
+    destination: args[1],
+  };
+  await transparentify.run(filepath, options);
 })();
