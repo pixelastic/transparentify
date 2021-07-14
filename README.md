@@ -8,7 +8,7 @@ Removes the background of any image, using the [PhotoRoom][1] API.
 const transparentify = require('transparentify');
 
 // Create picture.png, with the background removed
-await transparentify('picture.jpg');
+await transparentify.run('picture.jpg');
 ```
 
 ## Installation
@@ -18,7 +18,7 @@ environment variable, or passed as an `apiKey` option
 
 ## Options
 
-The method accepts an `option` object as the second parameters, with the
+The `run` method accepts an `option` object as the second parameters, with the
 following keys:
 
 | Key           | Description                                   | Default value                                                        |

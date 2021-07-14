@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+const transparentify = require('../lib/main.js');
+(async () => {
+  await transparentify.run(process.argv.slice(2)[0]);
+})();
