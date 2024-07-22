@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "aberlaas": "1.25.0"
+    "aberlaas": "1.26.0"
   },
   "engines": {
     "node": ">=14.17.0"
@@ -29,6 +29,6 @@
     "firost": "2.17.0",
     "form-data": "4.0.0",
     "fs-extra": "10.0.0",
-    "golgoth": "2.1.0"
+    "golgoth": "2.4.0"
   }
 }
