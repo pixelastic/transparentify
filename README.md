@@ -1,3 +1,7 @@
+> **⚠️ ARCHIVED**: I replaced this with a simpler bash script. The npm module is no longer needed.
+
+---
+
 # Transparentify
 
 Removes the background of any image, using the [PhotoRoom][1] API.
